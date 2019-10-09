@@ -1,0 +1,19 @@
+Mark Boutros
+Imm 130
+
+How.com Changelog
+
+#10/2/19
+-Finalized How.com version 1.0
+	-Base Site Layout
+	-Base Visual Design
+	-Base Pages & Anchors
+	-Base CSS styling
+
+	Todo:
+	-Design Profile, Contact, and Tour Pages
+	-Work on background : gradient / image ?
+	-Expand body design:
+	-Expand post design (buttons, images, links)
+	-Implement state responsivity for links 
+	-Start adding <script> ?
