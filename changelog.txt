@@ -17,3 +17,39 @@ How.com Changelog
 	-Expand post design (buttons, images, links)
 	-Implement state responsivity for links 
 	-Start adding <script> ?
+
+#10/16/19
+-How.com version 1.1
+	-Continued design improvements on homepage
+	-Continued CSS revisions
+	-Add basic layout to contact, profile pages
+	-Insert placeholder images into posts
+	
+	Todo:
+	-More CSS: get site very smooth & responsive
+	-Better design: cleaner, more eye-catching, without clutter
+	-Implement single post page (js??)
+	-Refine contact, profile pages
+	-Add submit post page
+
+	***much of this update was lost due to a laptop crash before upload :(
+
+#10/29/19
+-How.com version 2.0
+	-Refined homepage:
+		-Columns, colors & spacings
+	-Basic design of profile page:
+		-includes picture, statistics
+	-Basic design of contact page:
+		-includes forms in site style
+	-Continued work on CSS for all pages
+	-Inserted some basic placeholder images
+
+	Todo:
+	-Figure out how to implement tour (maybe external slideshow??)
+	-Make pages more responsive (hover, onclick)
+	-Implement single post page (js??)
+	-Refine contact, profile pages
+	-Add submit post page
+	
+	 
