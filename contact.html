@@ -13,7 +13,7 @@ By Mark Boutros
         href = "styles.css" 
     />
     <meta charset= "UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>How.com</title>
 </head>
 <body>
@@ -36,27 +36,20 @@ By Mark Boutros
     <hr class = "thicc">
 </header>
 
-<div class = "sidebar">
-
-        <h2>Search Posts:&nbsp;</h2>
-        <input name = "searchbar">
-        <button type = "button" onclick="alert('search stuff')">Go</button>
-        <hr class = "thicc">
-        <a class = "contact" href ="contact.html">&gt; Contact Us!</a>
-</div>
-
-<div class = "contactform">
-    <div class = "one_post">
+<!-- Grid Layout -->
+<div class = "grid_contact"> 
+    <div class = "contactform">
+    
         <h2 style="text-decoration: underline">Contact How.com</h2>
         <br>
         
         <form action="/contactform.php">
             <h3>Step 1: Select contact reason:</h3>
             <select name="reason">
-              <option value="suggest">Site Suggestion</option>
-              <option value="bug">Report a Bug</option>
-              <option value="other">Other</option>
-              <option value="default" selected>please choose reason</option>
+                <option value="suggest">Site Suggestion</option>
+                <option value="bug">Report a Bug</option>
+                <option value="other">Other</option>
+                <option value="default" selected>please choose reason</option>
             </select>
             <br>
 
@@ -69,8 +62,24 @@ By Mark Boutros
             <input type="submit">
         </form>
 
+        
     </div>
+
+    <!-- Begin Sidebar -->
+    
+    <div class = "sidebar">
+
+        <h2>Search Posts:&nbsp;</h2>
+        <input name = "searchbar">
+        <button type = "button" onclick="alert('search stuff')">Go</button>
+        <hr class = "thicc">
+
+        <a class = "contact" href ="contact.html">&gt; Contact Us!</a>
+    </div>
+    <!-- End Sidebar -->
 </div>
+
+
 
 </body>
 

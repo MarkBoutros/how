@@ -32,8 +32,6 @@ How.com Changelog
 	-Refine contact, profile pages
 	-Add submit post page
 
-	***much of this update was lost due to a laptop crash before upload :(
-
 #10/29/19
 -How.com version 2.0
 	-Refined homepage:
@@ -46,10 +44,21 @@ How.com Changelog
 	-Inserted some basic placeholder images
 
 	Todo:
-	-Figure out how to implement tour (maybe external slideshow??)
+	-Figure out how to implement tour (maybe tooltip styling?)
 	-Make pages more responsive (hover, onclick)
 	-Implement single post page (js??)
 	-Refine contact, profile pages
 	-Add submit post page
+
+#11/19/19
+-How.com version 2.1
+	-Changed structure from 'floats' to CSS Grid
+	-Added highlighting concepts with visible key
+	-Replaced placeholder posts with actual content.
+
+	Todo:
+	-See all 10/29/19
+	-Refine post proportions & coloring
+	-Make updates smaller & more frequent
 	
 	 
