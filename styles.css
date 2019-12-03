@@ -1,7 +1,13 @@
 /*
-How.com v1.0
+How.com v2.2
+12/3/19
 
 By Mark Boutros
+
+
+#86C81C green
+#0E7EC4 blue
+#FEC72D orange
 */
 * { 
     font-family: "Lucida Sans Typewriter", "Lucida Console", monospace;
@@ -32,7 +38,8 @@ nav ul li a{ /* nav font styles */
     
 }
 
-nav ul li a:hover{ /* nav font styles */
+nav ul li a:hover{ /* nav hover font styles */
+    text-shadow: 1px 1px gold;
     text-decoration: underline;
 }
 
@@ -43,8 +50,16 @@ h1 { /* site name style*/
     font-variant: small-caps;
 }
 
-h2 {
+h2 a{ /* link font styles */
     
+    color: black;
+    text-decoration: none;
+    
+}
+
+h2 a:hover{ /* link hover font styles */
+    text-shadow: 1px 1px gold;
+    text-decoration: underline;
 }
 
 body {
@@ -82,8 +97,7 @@ body {
     border-radius: 15px;
     border: 5px solid black;
     padding: 0px 10px 10px 10px;
-    
-    
+
 }
 
 .cat_list{
@@ -108,17 +122,33 @@ body {
     border: 4px solid black;
     padding: 10px 10px 10px 20px;
 
-    background-color: darkgray;
+    background-color: black;
+}
+
+.single_page{
+    margin: 20px;
+    border-radius: 15px;
+    border: 5px solid black;
+    padding: 10px 10px 10px 20px;
+
+
+    background-color: black;
 }
 
 .qf{
-    border: 4px solid red;
+    background-color: #FEC72D;
 }
 .tech{
-    border: 4px solid blue;
+    background-color: #0E7EC4;
 }
 .life{
-    border: 4px solid green;
+    background-color: #86C81C;
+}
+
+.text_bg{
+    border-radius: 5px;
+    border: 2px solid grey;
+    background-color: darkgrey;
 }
 
 #profilepic{
@@ -131,7 +161,7 @@ body {
     border: 5px solid black;
     padding: 10px 10px 10px 20px;
 
-    background-color: darkgray;
+    background-color: darkgrey;
 }
 
 .contactform{
@@ -159,6 +189,7 @@ textarea:focus{
 
 .contact:hover {    
     text-decoration: underline;
+    text-shadow: 1px 1px gold;
 }
 
 .thicc {
