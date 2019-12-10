@@ -4,81 +4,92 @@ How.com v2.2
 
 By Mark Boutros
  -->
- 
+
 <!DOCTYPE html>
-<html lang = "en-US">
+<html lang="en-US">
 
 <head>
-    <link rel = "stylesheet"
-        type = "text/css"
-        href = "styles.css" 
-    />
-    <meta charset= "UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>How.com</title>
 </head>
+
 <body>
 
-<header>
-    <h1>How.com</h1>
-    <nav>
+    <header>
+        <h1>How.com</h1>
+        <nav>
 
-        <ul>
-            <li>
-                <a href = "profile.html">Profile</a> 
-            </li>
-            <li>
-                <a href = "index.html">Back to Home</a><!-- first menu item -->
-            </li>
-        </ul>
-        
-    </nav>
-    <p>&nbsp;</p>
-    <hr class = "thicc">
-</header>
+            <ul>
+                <li>
+                    <a href="profile.html" class="tooltip">Profile
+                        <span class="tooltiptext"> Navigate to Profile page</span>
+                    </a> <!-- first menu item -->
+                </li>
+                <li>
+                    <a href="index.html" class="tooltip">Back to Home
+                        <span class="tooltiptext"> Navigate to Home page</span>
+                    </a><!-- first menu item -->
+                </li>
+            </ul>
 
-<!-- Grid Layout -->
-<div class = "grid_contact"> 
-    <div class = "contactform">
-    
-        <h2 style="text-decoration: underline">Contact How.com</h2>
-        <br>
-        
-        <form action="/contactform.php">
-            <h3>Step 1: Select contact reason:</h3>
-            <select name="reason">
-                <option value="suggest">Site Suggestion</option>
-                <option value="bug">Report a Bug</option>
-                <option value="other">Other</option>
-                <option value="default" selected>please choose reason</option>
-            </select>
-            <br>
+        </nav>
+        <p>&nbsp;</p>
+        <hr class="thicc">
+    </header>
 
-            <h3>Step 2: Describe reason for contact:</h3>
-            <textarea name="message" rows="10" cols="30">please enter text here.</textarea>
-            <br>
+    <!-- Grid Layout -->
+    <div class="grid_contact">
+        <div class="contactform">
 
-            <h3>Step 3: Click button below to submit:</h3>
+            <h2 style="text-decoration: underline">Contact How.com</h2>
+            <hr class="thicc">
 
-            <input type="submit">
-        </form>
+            <form action="/contactform.php">
+                <h3>Step 1: Select contact reason:</h3>
+                <select name="reason">
+                    <option value="suggest">Site Suggestion</option>
+                    <option value="bug">Report a Bug</option>
+                    <option value="other">Other</option>
+                    <option value="default" selected>please choose reason</option>
+                </select>
+                <br>
 
-        
+                <h3>Step 2: Describe reason for contact:</h3>
+                <textarea name="message" rows="10" cols="30" placeholder="please enter text here."></textarea>
+                <br>
+
+                <h3>Step 3: Enter you email or account name:</h3>
+                <input name="namebar" placeholder="xxxx@xxxx.xxx">
+
+                <h3>Step 4: Click button below to submit:</h3>
+
+                <input type="submit">
+            </form>
+
+
+        </div>
+
+        <div></div>
+        <!-- Begin Sidebar -->
+
+        <div class="sidebar">
+
+            <h2>Search Posts:&nbsp;</h2>
+            <input name="searchbar">
+            <button type="button" onclick="alert('search stuff')">Go</button>
+            <hr class="thicc">
+            <h3><a href="https://www.surveymonkey.com/r/JNGPVJM" class="tooltip" style="color:black;">Submit a post:
+                    <span class="tooltiptext">Click here to Submit a Post</span>
+                </a></h3>
+
+            <hr class="thicc">
+
+            <a class="contact" href="contact.html">&gt; Contact Us!</a>
+        </div>
+        <!-- End Sidebar -->
     </div>
-
-    <!-- Begin Sidebar -->
-    
-    <div class = "sidebar">
-
-        <h2>Search Posts:&nbsp;</h2>
-        <input name = "searchbar">
-        <button type = "button" onclick="alert('search stuff')">Go</button>
-        <hr class = "thicc">
-
-        <a class = "contact" href ="contact.html">&gt; Contact Us!</a>
-    </div>
-    <!-- End Sidebar -->
-</div>
 
 
 

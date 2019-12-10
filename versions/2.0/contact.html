@@ -1,0 +1,77 @@
+<!-- 
+How.com v1.0
+
+By Mark Boutros
+ -->
+ 
+<!DOCTYPE html>
+<html lang = "en-US">
+
+<head>
+    <link rel = "stylesheet"
+        type = "text/css"
+        href = "styles.css" 
+    />
+    <meta charset= "UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <title>How.com</title>
+</head>
+<body>
+
+<header>
+    <h1>How.com</h1>
+    <nav>
+
+        <ul>
+            <li>
+                <a href = "profile.html">Profile</a> 
+            </li>
+            <li>
+                <a href = "index.html">Home</a><!-- first menu item -->
+            </li>
+        </ul>
+        
+    </nav>
+    <p>&nbsp;</p>
+    <hr class = "thicc">
+</header>
+
+<div class = "sidebar">
+
+        <h2>Search Posts:&nbsp;</h2>
+        <input name = "searchbar">
+        <button type = "button" onclick="alert('search stuff')">Go</button>
+        <hr class = "thicc">
+        <a class = "contact" href ="contact.html">&gt; Contact Us!</a>
+</div>
+
+<div class = "contactform">
+    <div class = "one_post">
+        <h2 style="text-decoration: underline">Contact How.com</h2>
+        <br>
+        
+        <form action="/contactform.php">
+            <h3>Step 1: Select contact reason:</h3>
+            <select name="reason">
+              <option value="suggest">Site Suggestion</option>
+              <option value="bug">Report a Bug</option>
+              <option value="other">Other</option>
+              <option value="default" selected>please choose reason</option>
+            </select>
+            <br>
+
+            <h3>Step 2: Describe reason for contact:</h3>
+            <textarea name="message" rows="10" cols="30">please enter text here.</textarea>
+            <br>
+
+            <h3>Step 3: Click button below to submit:</h3>
+
+            <input type="submit">
+        </form>
+
+    </div>
+</div>
+
+</body>
+
+</html>

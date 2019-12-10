@@ -1,0 +1,130 @@
+/*
+How.com v1.0
+
+By Mark Boutros
+*/
+* { 
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monospace;
+}
+nav ul li {  /* nav list item styles */
+    list-style: none;
+    float:right;
+
+    /*      Black background for menu items??
+    background-color: black;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    */
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+nav ul li a{ /* nav font styles */
+    font-variant: all-small-caps;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover{ /* nav font styles */
+    text-decoration: underline;
+}
+
+h1 { /* site name style*/
+    margin: -10px -10px;
+    padding-left: 20px;
+    font-size: 100px;
+    font-variant: small-caps;
+}
+
+h2 {
+    
+}
+
+body {
+    background-color: grey;
+}
+
+.small_caps {
+    font-variant: small-caps;
+}
+.all_small_caps {
+    font-variant: all-small-caps;
+}
+
+.sidebar{
+    margin: 20px auto;
+    border: 5px solid black;
+    padding: 0px 10px 10px;
+    float: right;
+    
+}
+
+.all_posts{
+    
+}
+
+.one_col{
+    max-width: 25%;
+    min-width: 240px;
+    border-right: 2px solid black;
+    
+    padding-right: 10px;
+
+    margin: 10px;
+    float: left;
+}
+
+.one_post{
+    margin: 10px 10px 10px 0px;
+    min-width: 200px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 20px;
+
+    background-color: darkgray;
+}
+
+#profilepic{
+    width: 200px;
+    height: 200px;
+}
+.profile{
+    margin: 20px;
+    width: 250px;
+}
+
+.contactform{
+    margin: 20px;
+    width: 300px;
+} 
+
+textarea{
+    resize: none;
+}
+
+textarea:focus{
+    
+}
+
+.contact{
+    float: right;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact:hover {    
+    text-decoration: underline;
+}
+
+.thicc {
+    border: 3px solid black;
+    border-radius: 3px;
+}
+

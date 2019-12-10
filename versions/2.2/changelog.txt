@@ -74,7 +74,4 @@ How.com Changelog
 	-Continue to try new color schemes.
 	-Further responsivity & overall polish.
 	-Wrap up :)
-
-#12/11/19
--How.com version 3.0
 	 
